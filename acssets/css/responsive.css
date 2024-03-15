@@ -1,0 +1,323 @@
+/* pc */
+@media (min-width: 1461px) {
+   .w-three {
+      width: 33.3333%;
+   }
+   .pc-none {
+      display: none;
+   }
+   .footer_top-wraaper {
+      gap: 12px;
+   }
+   .footer_top-infomation {
+      margin-left: 12px;
+   }
+}
+/* pc  medium*/
+@media (min-width: 1080px) and (max-width: 1460px) {
+   .wide {
+      width: 1046px;
+   }
+   .md-none {
+      display: none;
+   }
+   .md-block {
+      display: block;
+   }
+   .product-outstanding_gamepad {
+      width: 100%;
+   }
+   .header_search-top {
+      margin: 0 30px;
+   }
+   .list-category {
+      padding: 0;
+   }
+   .category-item {
+      padding: 4px 14px;
+      width: 230px;
+      display: flex;
+      align-items: center;
+   }
+   .footer_top-wraaper {
+      gap: 16px;
+   }
+   .product-outstanding_item {
+      flex-basis: 0;
+   }
+   .product-outstanding-img {
+      width: 391px;
+   }
+   .product-outstanding_secondary {
+      margin-top: 8px;
+   }
+   .product_item {
+      width: 100%;
+   }
+   .product-outstanding_primary-control {
+      width: 738px;
+      height: 135px;
+      position: absolute;
+      top: 90px;
+      left: 30px;
+   }
+   .footer_top-btn {
+      margin-top: 15px;
+   }
+   .footer_top-subscribe {
+      line-height: 18px;
+   }
+   .w-three {
+      width: 100%;
+      gap: 8px;
+   }
+   .product_list {
+      margin-top: 50px;
+      gap: 12px;
+   }
+   .footer_top-infomation {
+      margin-left: 12px;
+   }
+}
+/* tablet & mobi */
+@media (max-width: 1079px) {
+   .tm-none {
+      display: none;
+   }
+   .tm-block {
+      display: block;
+   }
+   .header_search_category {
+      padding: 0px 17px;
+   }
+   .header_search-top {
+      margin-left: 14px;
+   }
+   .app-bar_cart {
+      margin-right: 0;
+      margin-left: 8px;
+   }
+   .btn-search_input-top {
+      width: 82px;
+   }
+   .app-bar_cart {
+      margin-left: 28px;
+   }
+   .product-outstanding_item {
+      flex-basis: 0;
+   }
+   .footer_top-phone {
+      line-height: 34px;
+   }
+   .text-xl {
+      font-size: 14px;
+      line-height: 20px;
+   }
+   .col-tl {
+      padding: 0 20px;
+   }
+   .tm-mt-60 {
+      margin-top: 50px;
+   }
+   .footer_top-btn {
+      margin-top: 20px;
+   }
+   .footer_bottom {
+      /* display: block; */
+      flex-direction: column;
+      text-align: center;
+   }
+   .footer_bottom_Copyright {
+      padding: 20px 0;
+   }
+   .footer_bottom-list-cart {
+      padding-bottom: 30px;
+   }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1079px) {
+   .wide {
+      width: 664px;
+   }
+   .t-none {
+      display: none;
+   }
+   .t-block {
+      display: block;
+   }
+   .header_search-top-input {
+      padding-right: 103px;
+   }
+   .dashboard-bar_list-menu {
+      margin-left: 0;
+   }
+   .dashboard-bar_menu-home:after {
+      display: none;
+   }
+   .header-dashboard-bar {
+      padding-left: 0;
+   }
+   .dashboard-bar_menu-item {
+      padding: 0 18px;
+   }
+   .product-outstanding_primary-control {
+      width: 645px;
+      height: 110px;
+      position: absolute;
+      top: 79px;
+      left: 9px;
+   }
+   .product-outstanding_gamepad {
+      width: 100%;
+   }
+   .product-outstanding-img {
+      width: 332px;
+   }
+   .product-outstanding_secondary {
+      margin-top: 8px;
+   }
+   .w-three {
+      width: 50%;
+      gap: 8px;
+   }
+   .product_item {
+      width: 98%;
+   }
+   .product_name {
+      width: 100%;
+   }
+   .product_list {
+      margin-top: 30px;
+   }
+}
+/* mobi */
+@media (max-width: 739px) {
+   .m-none {
+      display: none;
+   }
+   .m-g-0 {
+      gap: 0;
+   }
+   .m-block {
+      display: block;
+   }
+   .top-bar_list-nav {
+      gap: 0;
+   }
+   .top-bar_nav {
+      flex-grow: 1;
+      justify-content: center;
+      align-item: center;
+   }
+   .top-bar_nav-item {
+      line-height: var(--top-bar-height);
+      padding: 0 10px;
+      text-wrap: nowrap;
+   }
+   .header_menu-mobile {
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      margin-right: 12px;
+   }
+   .header_search-top-input {
+      padding-right: 24px;
+      padding-left: 16px;
+   }
+   .header-app-bar,
+   #container {
+      padding: 8px;
+   }
+   .head-body {
+      display: block;
+   }
+   .product-outstanding_secondary {
+      display: block;
+   }
+   .product-outstanding-img {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin-top: 18px;
+   }
+   .product-outstanding_item {
+      display: flex;
+      justify-content: center;
+   }
+   .product-outstanding_gamepad {
+      width: 100%;
+   }
+   .product-sale_timer-item {
+      width: 35px;
+      height: 33px;
+   }
+   .product_list {
+      display: block;
+      margin-top: 8px;
+   }
+   .w-three {
+      width: 100%;
+      gap: 8px;
+   }
+   .product_item {
+      width: 100%;
+   }
+   .product_name {
+      width: 100%;
+   }
+   .product-sale_name {
+      line-height: 18px;
+   }
+   .product_discount {
+      width: 29px;
+      height: 18px;
+   }
+   .product_sale-title {
+      font-size: 13px;
+      line-height: 14px;
+   }
+   .m-mt-60 {
+      margin-top: 60px;
+   }
+   .footer_bottom_Copyright {
+      font-size: 12px;
+   }
+   .category-mobile {
+      display: block;
+      padding: 12px
+   }
+   .category-mobile__icon {
+      font-size: 24px;
+      cursor: pointer;
+   }
+
+   .category-mobile__input:checked ~ .fixed-modal {
+      display: block;
+      animation: fade linear 0.3s;
+   }
+   .category-mobile__input:checked ~ .category-mobile__content {
+      transform: translateX(0);
+      animation: fade linear 0.3s;
+   }
+   .category-mobile__content {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background-color: var(--white-color);
+      width: 70%;
+      z-index: 2;
+      transform: translateX(-100%);
+      transition: transform linear 0.2s;
+      display: block;
+   }
+   .category-mobile__menu {
+      font-size: 1.6rem;
+      padding: 19px;
+      font-weight: 700;
+   }
+   .category-mobile__menu:hover {
+      background-color: #ededed;
+      cursor: pointer;
+   }
+}

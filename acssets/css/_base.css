@@ -1,0 +1,314 @@
+* {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+   color: '#212529';
+}
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+   line-height: 12px;
+   font-family: Bai Jamjuree, sans-serif;
+   overflow-x: hidden;
+}
+
+ul,
+li {
+   list-style-type: none;
+}
+a {
+   color: #212529;
+   text-decoration-line: none;
+}
+.outline-none {
+   outline: none;
+}
+.border-none {
+   border: none;
+}
+.underline {
+   text-decoration-line: underline;
+}
+.no-wrap: {
+   text-wrap: nowrap;
+}
+.text-center {
+   text-align: center;
+}
+.block {
+   display: block;
+}
+.none {
+   display: none;
+}
+.flex {
+   display: flex;
+}
+.flex-col {
+   flex-direction: column;
+}
+.inline-block {
+   display: inline-block;
+}
+.justify-between {
+   justify-content: space-between;
+}
+.justify-center {
+   justify-content: center;
+}
+.items-center {
+   align-items: center;
+}
+.justify-self-end {
+   justify-self: end;
+}
+.justify-end {
+   justify-content: end;
+}
+.flex-wrap {
+   flex-wrap: wrap;
+}
+.gap-1 {
+   gap: 4px;
+}
+.gap-2 {
+   gap: 8px;
+}
+.gap-3 {
+   gap: 12px;
+}
+.gap-4 {
+   gap: 16px;
+}
+.gap-5 {
+   gap: 20px;
+}
+.gap-6 {
+   gap: 24px;
+}
+.gap-7 {
+   gap: 28px;
+}
+.gap-8 {
+   gap: 32px;
+}
+.gap-9 {
+   gap: 36px;
+}
+.gap-1_5 {
+   gap: 5px;
+}
+.flex-1 {
+   flex-grow: 1;
+}
+.flex-2 {
+   flex-grow: 3;
+}
+.flex-3 {
+   flex-grow: 3;
+}
+.relative {
+   position: relative;
+}
+.font-normal {
+   font-weight: 400;
+}
+.font-medium {
+   font-weight: 500;
+}
+.font-semibold {
+   font-weight: 600;
+}
+.font-bold {
+   font-weight: 700;
+}
+.text-s {
+   font-size: 1.1rem;
+   line-height: 0.859rem;
+}
+.text-m {
+   font-size: 1.2rem;
+   line-height: 1.25rem;
+}
+.text-l {
+   font-size: 1.3rem;
+   line-height: 1.016rem;
+}
+.text-xl {
+   font-size: 1.4rem;
+   line-height: 1.094rem;
+}
+.text-2xl {
+   font-size: 1.5rem;
+   line-height: 1.206rem;
+}
+.text-3xl {
+   font-size: 1.8rem;
+   line-height: 1.406rem;
+}
+.text-4xl {
+   font-size: 2rem;
+   line-height: 1.6rem;
+}
+.line-through {
+   text-decoration: line-through;
+ }
+.text-big {
+   font-size: 3rem;
+   line-height: 1.8rem;
+}
+.text-white {
+   color: #fff;
+}
+.opacity {
+   opacity: 1 !important;
+}
+.text-black {
+   color: #000;
+}
+.text-blue {
+   color: #2b38d1;
+}
+.text-red {
+   color: red;
+}
+.text-red-bold {
+   color: #e80404;
+}
+.text-green {
+   color: #008a00;
+}
+.gray-50 {
+   color: #e5e8ec;
+}
+.gray-70 {
+   color: #8d979e;
+}
+.gray-100 {
+   color: #515d66;
+}
+.gray-500 {
+   color: #212529;
+}
+.border-b-1 {
+   border-bottom: 2px solid #e5e8ec;
+}
+.cursor-pointer {
+   cursor: pointer;
+}
+.bg-blue {
+   background-color: #2b38d1;
+}
+.bg-slate-50 {
+   background-color: #e5e8ec;
+}
+.bg-slate-100 {
+   background-color: #8d979e;
+}
+.bg-green {
+   background-color: green !important;
+}
+.bg-while {
+   background-color: #fff;
+}
+.h-full {
+   height: 100%;
+}
+.w-full {
+   width: 100%;
+}
+.hover,
+.hover-product {
+   transition: all 0.2s linear;
+}
+.hover:hover {
+   cursor: pointer;
+   scale: 1.01;
+   color: #404bcb !important;
+}
+.hover-opa:hover {
+   opacity: 0.89;
+}
+.hover-product:hover {
+   cursor: pointer;
+   scale: 0.99;
+   border: 1px solid red;
+}
+.overflow-hidden {
+   overflow: hidden;
+}
+.w-two {
+   width: 50%;
+}
+.w-three {
+   width: 25%;
+}
+.h-4 {
+   height: 16px;
+}
+.h-5 {
+   height: 20px;
+}
+.ml {
+   margin-left: 2px;
+}
+.mr {
+   margin-right: 2px;
+}
+.mr-1 {
+   margin-right: 8px;
+}
+.ml-1 {
+   margin-left: 4px;
+}
+.ml-2 {
+   margin-left: 8px;
+}
+.mt {
+   margin-top: 2px;
+}
+.mt-1 {
+   margin-top: 4px;
+}
+.mt-2 {
+   margin-top: 8px;
+}
+.mt-2_5 {
+   margin-top: 10px;
+}
+.mt-3 {
+   margin-top: 12px;
+}
+.mt-4 {
+   margin-top: 16px;
+}
+.mt-5 {
+   margin-top: 20px;
+}
+.mt-6 {
+   margin-top: 24px;
+}
+.mt-6_5 {
+   margin-top: 26px;
+}
+.mt-7 {
+   margin-top: 28px;
+}
+.mt-9 {
+   margin-top: 36px;
+}
+.py-4 {
+   padding-top: 12px;
+   padding-left: 12px;
+}
+.fixed-modal {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.4);
+   z-index: 2;
+   display: none;
+}
